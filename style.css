@@ -13,6 +13,7 @@ body div.mycalc {
 	text-align: center;
 	width: 300px;
 	margin: 0 auto;
+	
 }
 
 div input[type='button'], button {
@@ -48,15 +49,16 @@ div.results button {
 }
 
 div.results input {
-	background-color: #fd7202;
+	background-color: #ff7300;
 	color: #fff;
-	border: 1px solid #fd7202;
+	border: 1px solid #ff7300;
 }
 
-#plus, #minus, #by, #devide, #percent {
-	background-color: green;
+#plus, #minus, #by, #divide, #percent {
+	background-color: rgb(2, 141, 2);
 	color: #fff;
-	border: 1px solid green;
+	border: 1px solid rgb(2, 141, 2);
 	font-size: 16px;
 }
+
 
