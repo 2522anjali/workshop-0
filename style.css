@@ -1,12 +1,19 @@
 body {
-	background-color: #000;
+	background-color: rgb(8, 7, 7);
 }
-
+h1{
+	color:#fff;
+	text-align: center;
+	margin-bottom:-90px;
+	border: double #999;
+	border-radius: 16px;
+}
 
 body div.mycalc {
 	text-align: center;
 	width: 300px;
 	margin: 0 auto;
+	
 }
 
 div input[type='button'], button {
@@ -47,10 +54,11 @@ div.results input {
 	border: 1px solid #fd7202;
 }
 
-#plus, #minus, #by, #devide, #percent {
+#plus, #minus, #by, #divide, #percent {
 	background-color: green;
 	color: #fff;
 	border: 1px solid green;
 	font-size: 16px;
 }
+
 
